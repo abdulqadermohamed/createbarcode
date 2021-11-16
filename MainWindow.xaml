@@ -1,0 +1,15 @@
+﻿<Window x:Class="createbarcode.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:createbarcode"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button  Click="btn_create_Click" x:Name="btn_create" Content="CreateBarCode&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="619,49,0,0" VerticalAlignment="Top" Width="163" Height="43" Cursor="" FontSize="18" FontFamily="Segoe UI Black"/>
+        <TextBox x:Name="txt_barcode" HorizontalAlignment="Left" Height="43" Margin="158,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="449"/>
+        <Image   x:Name="img_barcode" HorizontalAlignment="Left" Height="282" Margin="23,127,0,0" VerticalAlignment="Top" Width="750"/>
+        <Button Content="print&#xD;&#xA;" HorizontalAlignment="Left" Margin="7,49,0,0" VerticalAlignment="Top" Width="137" Height="43" Click="Button_Click" FontSize="18" FontFamily="Segoe UI Black"/>
+    </Grid>
+</Window>
